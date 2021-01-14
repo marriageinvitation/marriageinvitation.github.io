@@ -30,8 +30,7 @@ const updateTime = (targetDate) => {
   minutesElement.innerText = minutes.toString().padStart(2, '0');
   secondsElement.innerText = seconds.toString().padStart(2, '0');
 };
-const nextYear = new Date().getFullYear() + 1;
-const targetDate = new Date(`2021-03-05 00:00:00`);
+const targetDate = new Date(`2021-03-05 07:30:00`);
 
 updateTime(targetDate);
 setInterval(updateTime, 1000, targetDate);
