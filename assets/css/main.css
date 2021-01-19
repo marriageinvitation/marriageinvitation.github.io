@@ -123,7 +123,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #e445cf;
+		background-image: url("../../images/oyysss.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -144,7 +148,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #f403d4;
+		background-color: #03f403;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
