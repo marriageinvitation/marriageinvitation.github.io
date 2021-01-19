@@ -3367,9 +3367,16 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#nav {
+				display: 0em;	
+			}
+
+			nav ul {
 				display: none;
 			}
 
+			nav select {
+				display: inline-block;
+			}
 				#nav + #main {
 					padding-top: 0;
 				}
@@ -3377,6 +3384,9 @@ input, select, textarea {
 		}
 
 /* Main */
+nav select {
+	display: none;
+}
 
 	#main {
 		background-color: #ffffff;
