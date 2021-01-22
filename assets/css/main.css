@@ -33,6 +33,14 @@ body {
 	line-height: 1;
 }
 
+.right{
+
+	position: absolute;
+	right: 10%;
+	top: 35%;
+
+
+}
 ol, ul {
 	list-style: none;
 }
@@ -111,6 +119,7 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+
 
 	}
 
