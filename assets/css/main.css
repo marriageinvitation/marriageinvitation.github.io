@@ -224,6 +224,10 @@ input, select, textarea {
 		color: inherit;
 	}
 
+	.new_image{
+		top: 60px;
+	}
+
 		a:hover {
 			border-bottom-color: transparent;
 		}
@@ -3612,6 +3616,7 @@ input, select, textarea {
 				display: block;
 				border-radius: 70%;
 				width: 10em;
+				top: 90%;
 			}
 
 		@media screen and (max-width: 980px) {
