@@ -1156,7 +1156,7 @@ input, select, textarea {
 											top: 17em;
 											width: 18%;
 											height: 23%;
-										}5
+										}
 
 
 				.row > * {
@@ -3795,6 +3795,7 @@ input, select, textarea {
 				#header.alt {
 					padding: 0em 1.5em 1em 1.5em ;
 				}
+			
 
 
 		}
@@ -4423,10 +4424,60 @@ nav select {
 			#wrapper {
 				max-width: calc(100% - 2em);
 			}
-			
+													.right img {
+														position: absolute;
+														right: 2%;
+														top: 8em;
+														width: 16%;
+														height: 16%;
+													}
 
 		}
+			@media screen and (max-width: 520px) {
 
+				#wrapper {
+					max-width: calc(100% - 2em);
+				}
+
+				.right img {
+					position: absolute;
+					right: 2%;
+					top: 8em;
+					width: 20%;
+					height: 20%;
+				}
+
+			}
+			@media screen and (max-width: 737px) {
+
+				#wrapper {
+					max-width: calc(100% - 2em);
+				}
+
+				.right img {
+					position: absolute;
+					right: 1%;
+					top: 16em;
+					width: 18%;
+					height: 22%;
+				}
+
+			}
+						@media screen and (max-width: 850px) {
+
+							#wrapper {
+								max-width: calc(100% - 2em);
+							}
+
+							.right img {
+								position: absolute;
+								right: -1%;
+								top: 14em;
+								width: 16%;
+								height: 16%;
+							}
+
+						}
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
