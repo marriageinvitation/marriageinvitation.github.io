@@ -41,6 +41,7 @@ body {
 
 
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -2968,6 +2969,17 @@ input, select, textarea {
 
 /* Image */
 
+.home_color1{
+	background-color:#d2f8d2;
+
+}
+
+.home_color {
+	background-color: #fae7b5;
+
+}
+
+
 	.image {
 		border-radius: 10px;
 		border: 0;
@@ -3927,7 +3939,7 @@ input, select, textarea {
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #a4c639;
 						box-shadow: none;
 					}
 
