@@ -183,6 +183,7 @@ input, select, textarea {
 					height: 60%;
 			}
 
+
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2981,7 +2982,7 @@ input, select, textarea {
 
 
 	.image {
-		border-radius: 10px;
+		border-radius: 16px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -4443,6 +4444,15 @@ nav select {
 														width: 16%;
 														height: 16%;
 													}
+																.new_image {
+
+																	margin: 2em;
+
+																}
+
+																.headpage {
+																	margin-top: 10%;
+																}
 
 		}
 			@media screen and (max-width: 520px) {
@@ -4458,6 +4468,15 @@ nav select {
 					width: 20%;
 					height: 20%;
 				}
+							.new_image {
+
+								margin: 2em;
+
+							}
+
+							.headpage {
+								margin-top: 10%;
+							}
 
 			}
 			@media screen and (max-width: 737px) {
@@ -4474,6 +4493,15 @@ nav select {
 					height: 22%;
 				}
 
+							.new_image {
+
+								margin: 2em;
+
+							}
+
+							.headpage {
+								margin-top: 10%;
+							}
 			}
 						@media screen and (max-width: 850px) {
 
@@ -4488,6 +4516,16 @@ nav select {
 								width: 16%;
 								height: 16%;
 							}
+										.new_image {
+
+											margin: 2em;
+
+										}
+
+										.headpage {
+											margin-top: 20%;
+										}
+						
 
 						}
 		@media screen and (max-width: 360px) {
@@ -4495,5 +4533,22 @@ nav select {
 			#wrapper {
 				max-width: 100%;
 			}
+			.new_image {
+			
+				margin: 2em;
 
+			}
+			.headpage{
+				margin-top: 10%;
+			}
+			
+
+		}
+
+		#the-video {
+			width: 100%;
+			height: 100%;
+		}
+		.new_image{
+			border-radius: 15px;
 		}
